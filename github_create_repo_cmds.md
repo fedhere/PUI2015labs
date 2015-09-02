@@ -80,6 +80,7 @@ git push
 ```
 
 ##now go online to your github new repo, and make changed directly on the online version of the filechange online
+
 ##and make some local changes as well on your machine
 
 ```
@@ -89,14 +90,15 @@ git push
 ```
 
 ##congratulations: you got your first merge conflict!
-##edit the file removeing the lines starting with \>\> and \=\=, and decide what you want the file to look like to solve the conflict
+##edit the file removing the lines starting with \>\> and \=\=, and decide what you want the file to look like to solve the conflict
 
 ```
 emacs myfirstfile.txt 
 ```
 
 #...
-#now add the file again and commit. NOTE: the commit has to be global. i.e. you cannot use git commit myfirstfile.txt and commit only that right now: you have to commit everything.
+
+##now add the file again and commit. NOTE: the commit has to be global. i.e. you cannot use git commit myfirstfile.txt and commit only that right now: you have to commit everything.
 
 ```
 myfirstfile.txt and commit only that right now: you have to commit everything.
@@ -105,6 +107,8 @@ git commit
 ```
 
 ##you could also have stashed (thrown away) your changes as git stash
+
+
 #now lets mess with some one elses repo!
 ##go online and fork your repo
 
@@ -124,8 +128,11 @@ git commit myfirstfile.txt  -m 'messing with my neighbor repo'
 git push
 ```
 
-#go online to your fork, check the changes, request a merge
-#check your email: you will find the merge request from your new friend!
+##go online to your fork, check the changes, request a merge
+
+
+#back to your own repo...
+##check your email: you will find the merge request from your new friend!
 ##lets get back to our own repo online and look for pull requests. let's accept this request!
 
 ```

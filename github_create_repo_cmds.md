@@ -111,29 +111,33 @@ git pull
 ```
 
 ##edit the file removing the lines starting with \>\>, />/>, and ==, and decide what you want the file to look like to solve the conflict
-![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.22.03 AM.png)
 
 ```
 emacs myfirstfile.txt 
 ```
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.22.03 AM.png)
 
 #...
 
 ##now add the file again and commit. NOTE: the commit has to be global. i.e. you cannot use git commit myfirstfile.txt and commit only that right now: you have to commit everything.
 
 ```
-myfirstfile.txt and commit only that right now: you have to commit everything.
 git add myfirstfile.txt 
 git commit 
 ```
 
-##you could also have stashed (thrown away) your changes as git stash
+##NOTE: you could also have stashed (thrown away) your changes when you got the error message
 
+```
+git stash
+```
 
 #now lets mess with some one elses repo! the lady or gentelmen to your left will do!
 ##go online and fork your neighbor repo
 
 ##then clone it: the URL was given to you online in your fork page 
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.29.58 AM.png)
 
 ```
 cd ../

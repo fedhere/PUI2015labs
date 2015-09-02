@@ -90,7 +90,11 @@ git commit myfirstfile.txt -m 'commit changes'
 git push 
 ```
 
-##now go online to your github new repo, and make changed directly on the online version of the filechange online
+##now go online to your github new repo, and make changes directly on the online version of the file change online
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.11.31 AM.png)
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.14.17 AM.png)
 
 ##and make some local changes as well on your machine
 
@@ -100,8 +104,14 @@ git commit myfirstfile.txt -m 'commit changes without pulling first'
 git push
 ```
 
-##congratulations: you got your first merge conflict!
-##edit the file removing the lines starting with \>\> and \=\=, and decide what you want the file to look like to solve the conflict
+##congratulations: you got your first merge conflict! to fix it pull the changes over first
+
+```
+git pull
+```
+
+##edit the file removing the lines starting with \>\>, />/>, and ==, and decide what you want the file to look like to solve the conflict
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.22.03 AM.png)
 
 ```
 emacs myfirstfile.txt 

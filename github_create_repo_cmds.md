@@ -110,7 +110,7 @@ git push
 git pull
 ```
 
-##edit the file removing the lines starting with \>\>, />/>, and ==, and decide what you want the file to look like to solve the conflict
+##edit the file removing the lines starting with \>\>, \>\>, and ==, and decide what you want the file to look like to solve the conflict
 
 ```
 emacs myfirstfile.txt 
@@ -157,10 +157,16 @@ git push
 
 ##go online to your fork, check the changes, request a merge
 
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.21.46 AM.png)
+
 
 #back to your own repo...
 ##check your email: you will find the merge request from your new friend!
 ##lets get back to our own repo online and look for pull requests. let's accept this request!
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.34.14 AM.png)
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.35.43 AM.png)
+
 
 ```
 cd -

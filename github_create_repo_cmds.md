@@ -1,4 +1,5 @@
 #this is a markdown file guiding you through of the very first steps to create and manage a git repo with github
+##lets start on your bash shell
 ##crete a directory
 
 ```
@@ -45,7 +46,7 @@ git commit myfirstfile.txt -m 'trying to commit'
 git push
 ```
 
-##you have not told this repo where in the cloud to look for its remote version
+##why did you get a message?? because you have not told this repo where in the cloud to look for its remote version
 ##first go online and create a version. then follow the direction: use the appropriate URL here
 
 ```

@@ -176,6 +176,6 @@ git pull
 less myfirstfile.txt 
 git log
 ```
-#now don't forget to pull the file before you make more changes or you may get another conflict. However note that if you change <b>a different line</b> than the one your friend changed, the merge may work: github will pull the line you changed from your version and the line your friend changed from his. give it a try on your own!
+#now don't forget to pull the file before you make more changes or you may get another conflict. However note that if you change _a different line_ than the one your friend changed, the merge may work: github will pull the line you changed from your version and the line your friend changed from his. give it a try on your own!
 
 ```

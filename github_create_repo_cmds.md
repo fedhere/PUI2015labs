@@ -2,6 +2,8 @@
 ##lets start on your bash shell
 ##crete a directory
 
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.17.55 AM.png)
+
 ```
 mkdir gittest_fbianco
 ```
@@ -47,7 +49,15 @@ git push
 ```
 
 ##why did you get a message?? because you have not told this repo where in the cloud to look for its remote version
-##first go online and create a version. then follow the direction: use the appropriate URL here
+
+#first go online and create a repository. 
+![Alt text](lab1_imgs/Screen\ Shot\ 2015-09-02\ at\ 1.53.34\ AM.png)
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.04.06 AM.png)
+
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 2.04.21 AM.png)
+
+##then follow the direction (use the appropriate URL in the command below)
 
 ```
 git remote add origin  https://github.com/fedhere/gittest_fbianco.git
@@ -55,8 +65,8 @@ git push -u origin master
 ```
 
 ##the following command shows you what URL you push and pull from (need not be the same generally)
-```
 
+```
 git remote -v 
 git status
 ```

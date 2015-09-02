@@ -110,8 +110,10 @@ git commit
 ##you could also have stashed (thrown away) your changes as git stash
 
 
-#now lets mess with some one elses repo!
-##go online and fork your repo
+#now lets mess with some one elses repo! the lady or gentelmen to your left will do!
+##go online and fork your neighbor repo
+
+##then clone it: the URL was given to you online in your fork page 
 
 ```
 cd ../

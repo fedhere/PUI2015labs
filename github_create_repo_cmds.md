@@ -164,7 +164,7 @@ git push
 ##check your email: you will find the merge request from your new friend!
 ##lets get back to our own repo online and look for pull requests. let's accept this request!
 
-![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.34.14 AM.png)
+![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.34.13 AM.png)
 ![Alt text](lab1_imgs/Screen Shot 2015-09-02 at 1.35.43 AM.png)
 
 

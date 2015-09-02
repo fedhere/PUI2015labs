@@ -1,4 +1,4 @@
-#this is a markdown of the very first steps to create and manage a git repo with github
+#this is a markdown file guiding you through of the very first steps to create and manage a git repo with github
 ##crete a directory
 mkdir gittest_fbianco
 ##get in the directory to start working

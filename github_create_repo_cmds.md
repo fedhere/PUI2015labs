@@ -141,7 +141,7 @@ git stash
 
 ```
 cd ../
-git clone https://github.com/fedhere/gittest_ggdobler.git
+git clone https://github.com/fedhere/gittest_<the neighour on your left>.git
 ls -ltr
 cd gittest_<the neighour on your left>
 ls
